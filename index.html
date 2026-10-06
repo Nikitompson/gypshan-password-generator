@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Gypshan Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ШАПКА -->
+    <header>
+        <div class="logo">
+            🐋 <span>Gypshan Password Generator</span>
+        </div>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">О тоске</a>
+            <a href="#">GitHub</a>
+    <button id="themeToggle">🌙</button>
+        </nav>
+    </header>
+
+    <!-- ОСНОВНОЙ БЛОК -->
+    <main>
+        <div class="whale-animation">
+            🐋
+        </div>
+
+        <h1>Гипшанский генератор паролей</h1>
+        <button id="generateBtn">Генерировать</button>
+        <input type="text" id="passwordOutput" readonly placeholder="Пароль появится здесь">
+        <button id="copyBtn">Копировать</button>
+
+        
+<!-- СЧЁТЧИК -->
+<div class="counter">
+    <p>Сгенерировано паролей: <span id="counterValue">0</span></p>
+</div>
+
+<!-- ПАПА-КНОПКА -->
+<button id="papaBtn">Позвать папу</button>
+<div class="complexity">
+    <label>Уровень тоски:</label>
+    <select id="complexity">
+        <option value="easy">-0- (лёгкий)</option>
+        <option value="medium" selected>0.12 (средний)</option>
+        <option value="hard">42 (сложный)</option>
+        <option value="infinite">765 (бесконечный)</option>
+    </select>
+</div>
+
+        </div>
+    </main>
+
+    <!-- ПОДВАЛ -->
+    <footer>
+        <p>© 2026 GibAss. Все права защищены тоской.</p>
+        <p>Контакты: <a href="mailto:nikitompson7@gmail.com">nikitompson7@gmail.com</a></p>
+        <p>Кит наблюдает. Папа не одобряет.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
